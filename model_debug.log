@@ -1,0 +1,39 @@
+2025-03-28 22:58:10,194 - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-03-28 22:58:10,546 - DEBUG - Creating converter from 7 to 5
+2025-03-28 22:58:10,546 - DEBUG - Creating converter from 5 to 7
+2025-03-28 22:58:10,546 - DEBUG - Creating converter from 7 to 5
+2025-03-28 22:58:10,546 - DEBUG - Creating converter from 5 to 7
+2025-03-28 22:58:11,412 - DEBUG - etils.epath was not found. Using pathlib for file I/O.
+2025-03-28 22:58:12,559 - DEBUG - Creating converter from 3 to 5
+2025-03-28 22:58:12,790 - INFO - Model Input Shape: (None, 48)
+2025-03-28 22:58:12,797 - INFO - Model Summary:
+None
+2025-03-28 22:58:13,226 - INFO - Scaler Type: <class 'sklearn.preprocessing._data.MinMaxScaler'>
+2025-03-28 22:58:13,332 - INFO - Encoder Type: <class 'category_encoders.target_encoder.TargetEncoder'>
+2025-03-28 22:58:13,337 - ERROR - Diagnostic Analysis Error: Unexpected input dimension 1, expected 48
+2025-03-28 22:58:49,620 - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-03-28 22:58:49,886 - DEBUG - Creating converter from 7 to 5
+2025-03-28 22:58:49,886 - DEBUG - Creating converter from 5 to 7
+2025-03-28 22:58:49,886 - DEBUG - Creating converter from 7 to 5
+2025-03-28 22:58:49,886 - DEBUG - Creating converter from 5 to 7
+2025-03-28 22:58:50,583 - DEBUG - etils.epath was not found. Using pathlib for file I/O.
+2025-03-28 22:58:51,661 - DEBUG - Creating converter from 3 to 5
+2025-03-28 22:58:51,893 - INFO - Model Input Shape: (None, 48)
+2025-03-28 22:58:51,893 - INFO - Model Summary:
+None
+2025-03-28 22:58:52,308 - INFO - Scaler Type: <class 'sklearn.preprocessing._data.MinMaxScaler'>
+2025-03-28 22:58:52,426 - INFO - Encoder Type: <class 'category_encoders.target_encoder.TargetEncoder'>
+2025-03-28 22:58:52,431 - ERROR - Diagnostic Analysis Error: Unexpected input dimension 1, expected 48
+2025-03-28 22:59:03,909 - DEBUG - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-03-28 22:59:04,188 - DEBUG - Creating converter from 7 to 5
+2025-03-28 22:59:04,188 - DEBUG - Creating converter from 5 to 7
+2025-03-28 22:59:04,188 - DEBUG - Creating converter from 7 to 5
+2025-03-28 22:59:04,188 - DEBUG - Creating converter from 5 to 7
+2025-03-28 22:59:04,909 - DEBUG - etils.epath was not found. Using pathlib for file I/O.
+2025-03-28 22:59:06,102 - DEBUG - Creating converter from 3 to 5
+2025-03-28 22:59:06,326 - INFO - Model Input Shape: (None, 48)
+2025-03-28 22:59:06,336 - INFO - Model Summary:
+None
+2025-03-28 22:59:06,781 - INFO - Scaler Type: <class 'sklearn.preprocessing._data.MinMaxScaler'>
+2025-03-28 22:59:06,883 - INFO - Encoder Type: <class 'category_encoders.target_encoder.TargetEncoder'>
+2025-03-28 22:59:06,888 - ERROR - Diagnostic Analysis Error: Unexpected input dimension 1, expected 48

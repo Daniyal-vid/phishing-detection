@@ -1,0 +1,43 @@
+2025-03-28 23:01:23,827 - DEBUG - Creating converter from 3 to 5
+2025-03-28 23:01:23,984 - INFO - Model Input Shape: (None, 48)
+2025-03-28 23:01:24,006 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.22:5000
+2025-03-28 23:01:24,007 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-28 23:01:24,007 - INFO -  * Restarting with stat
+2025-03-28 23:01:28,642 - DEBUG - Creating converter from 3 to 5
+2025-03-28 23:01:28,800 - INFO - Model Input Shape: (None, 48)
+2025-03-28 23:01:28,817 - WARNING -  * Debugger is active!
+2025-03-28 23:01:28,822 - INFO -  * Debugger PIN: 145-408-015
+2025-03-28 23:01:37,577 - DEBUG - Extracted Features Shape: (1, 50)
+2025-03-28 23:01:37,577 - DEBUG - Extracted Features Columns: ['TLD', 'NumberOfSpecialCharacters', 'NumberOfSubdomains', 'HTTPS', 'VectorSpaceModelScore', 'AlexaRank', 'NumberOfRedirects', 'DNSRecord', 'GoogleIndexing', 'PageRank', 'IFramePresence', 'LinksPointingToPage', 'GoogleAnalytics', 'AgeOfDomain', 'StatisticalReports', 'DomainAge', 'WhoisRegistered', 'SSLFinalState', 'DomainRank', 'PopupWindow', 'SFH', 'URLPathLength', 'PrefixSuffix', 'TinyURL', 'Redirection', 'AnchorURL', 'RightClickDisabled', 'WebsiteTraffic', 'DomainBasedRanking', 'StatisticalReportsSource', 'AbnormalURL', 'IPinURL', 'ShorteningService', 'RequestURL', 'LinksInTags', 'SubmittingToEmail', 'ExtFormHandler', 'Redirect', 'StatusBarCustom', 'DisableRightClick', 'UsingPopupWindow', 'Iframe', 'DNSRecord', 'WebTraffic', 'SuspiciousWordsInURL', 'LengthOfURL', 'HasAtSymbol', 'IsLongURL', 'IsHTTPSMissing', 'HasIPAddress']
+2025-03-28 23:01:37,577 - ERROR - Prediction error: Unexpected input dimension 1, expected 48
+2025-03-28 23:01:37,577 - INFO - 127.0.0.1 - - [28/Mar/2025 23:01:37] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-03-28 23:01:42,371 - DEBUG - Extracted Features Shape: (1, 50)
+2025-03-28 23:01:42,372 - DEBUG - Extracted Features Columns: ['TLD', 'NumberOfSpecialCharacters', 'NumberOfSubdomains', 'HTTPS', 'VectorSpaceModelScore', 'AlexaRank', 'NumberOfRedirects', 'DNSRecord', 'GoogleIndexing', 'PageRank', 'IFramePresence', 'LinksPointingToPage', 'GoogleAnalytics', 'AgeOfDomain', 'StatisticalReports', 'DomainAge', 'WhoisRegistered', 'SSLFinalState', 'DomainRank', 'PopupWindow', 'SFH', 'URLPathLength', 'PrefixSuffix', 'TinyURL', 'Redirection', 'AnchorURL', 'RightClickDisabled', 'WebsiteTraffic', 'DomainBasedRanking', 'StatisticalReportsSource', 'AbnormalURL', 'IPinURL', 'ShorteningService', 'RequestURL', 'LinksInTags', 'SubmittingToEmail', 'ExtFormHandler', 'Redirect', 'StatusBarCustom', 'DisableRightClick', 'UsingPopupWindow', 'Iframe', 'DNSRecord', 'WebTraffic', 'SuspiciousWordsInURL', 'LengthOfURL', 'HasAtSymbol', 'IsLongURL', 'IsHTTPSMissing', 'HasIPAddress']
+2025-03-28 23:01:42,374 - ERROR - Prediction error: Unexpected input dimension 1, expected 48
+2025-03-28 23:01:42,374 - INFO - 127.0.0.1 - - [28/Mar/2025 23:01:42] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-03-28 23:01:51,156 - DEBUG - Extracted Features Shape: (1, 50)
+2025-03-28 23:01:51,157 - DEBUG - Extracted Features Columns: ['TLD', 'NumberOfSpecialCharacters', 'NumberOfSubdomains', 'HTTPS', 'VectorSpaceModelScore', 'AlexaRank', 'NumberOfRedirects', 'DNSRecord', 'GoogleIndexing', 'PageRank', 'IFramePresence', 'LinksPointingToPage', 'GoogleAnalytics', 'AgeOfDomain', 'StatisticalReports', 'DomainAge', 'WhoisRegistered', 'SSLFinalState', 'DomainRank', 'PopupWindow', 'SFH', 'URLPathLength', 'PrefixSuffix', 'TinyURL', 'Redirection', 'AnchorURL', 'RightClickDisabled', 'WebsiteTraffic', 'DomainBasedRanking', 'StatisticalReportsSource', 'AbnormalURL', 'IPinURL', 'ShorteningService', 'RequestURL', 'LinksInTags', 'SubmittingToEmail', 'ExtFormHandler', 'Redirect', 'StatusBarCustom', 'DisableRightClick', 'UsingPopupWindow', 'Iframe', 'DNSRecord', 'WebTraffic', 'SuspiciousWordsInURL', 'LengthOfURL', 'HasAtSymbol', 'IsLongURL', 'IsHTTPSMissing', 'HasIPAddress']
+2025-03-28 23:01:51,158 - ERROR - Prediction error: Unexpected input dimension 1, expected 48
+2025-03-28 23:01:51,159 - INFO - 127.0.0.1 - - [28/Mar/2025 23:01:51] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-03-28 23:02:25,209 - DEBUG - Extracted Features Shape: (1, 50)
+2025-03-28 23:02:25,209 - DEBUG - Extracted Features Columns: ['TLD', 'NumberOfSpecialCharacters', 'NumberOfSubdomains', 'HTTPS', 'VectorSpaceModelScore', 'AlexaRank', 'NumberOfRedirects', 'DNSRecord', 'GoogleIndexing', 'PageRank', 'IFramePresence', 'LinksPointingToPage', 'GoogleAnalytics', 'AgeOfDomain', 'StatisticalReports', 'DomainAge', 'WhoisRegistered', 'SSLFinalState', 'DomainRank', 'PopupWindow', 'SFH', 'URLPathLength', 'PrefixSuffix', 'TinyURL', 'Redirection', 'AnchorURL', 'RightClickDisabled', 'WebsiteTraffic', 'DomainBasedRanking', 'StatisticalReportsSource', 'AbnormalURL', 'IPinURL', 'ShorteningService', 'RequestURL', 'LinksInTags', 'SubmittingToEmail', 'ExtFormHandler', 'Redirect', 'StatusBarCustom', 'DisableRightClick', 'UsingPopupWindow', 'Iframe', 'DNSRecord', 'WebTraffic', 'SuspiciousWordsInURL', 'LengthOfURL', 'HasAtSymbol', 'IsLongURL', 'IsHTTPSMissing', 'HasIPAddress']
+2025-03-28 23:02:25,209 - ERROR - Prediction error: Unexpected input dimension 1, expected 48
+2025-03-28 23:02:25,209 - INFO - 127.0.0.1 - - [28/Mar/2025 23:02:25] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-03-28 23:03:02,042 - ERROR - Diagnostic error: Unexpected input dimension 1, expected 48
+2025-03-28 23:03:02,043 - INFO - 127.0.0.1 - - [28/Mar/2025 23:03:02] "[35m[1mGET /diagnostic HTTP/1.1[0m" 500 -
+2025-03-28 23:03:06,292 - ERROR - Diagnostic error: Unexpected input dimension 1, expected 48
+2025-03-28 23:03:06,292 - INFO - 127.0.0.1 - - [28/Mar/2025 23:03:06] "[35m[1mGET /diagnostic HTTP/1.1[0m" 500 -
+2025-03-28 23:04:28,109 - INFO -  * Detected change in 'C:\\Users\\Md.Daniyal\\Desktop\\finalY\\app.py', reloading
+2025-03-28 23:04:28,715 - INFO -  * Restarting with stat
+2025-03-28 23:06:33,876 - DEBUG - Creating converter from 3 to 5
+2025-03-28 23:06:34,029 - INFO - Model Input Shape: (None, 48)
+2025-03-28 23:06:34,037 - WARNING -  * Debugger is active!
+2025-03-28 23:06:34,042 - INFO -  * Debugger PIN: 145-408-015
+2025-03-28 23:06:35,352 - DEBUG - Extracted Features Shape: (1, 50)
+2025-03-28 23:06:35,352 - DEBUG - Extracted Features Columns: ['TLD', 'NumberOfSpecialCharacters', 'NumberOfSubdomains', 'HTTPS', 'VectorSpaceModelScore', 'AlexaRank', 'NumberOfRedirects', 'DNSRecord', 'GoogleIndexing', 'PageRank', 'IFramePresence', 'LinksPointingToPage', 'GoogleAnalytics', 'AgeOfDomain', 'StatisticalReports', 'DomainAge', 'WhoisRegistered', 'SSLFinalState', 'DomainRank', 'PopupWindow', 'SFH', 'URLPathLength', 'PrefixSuffix', 'TinyURL', 'Redirection', 'AnchorURL', 'RightClickDisabled', 'WebsiteTraffic', 'DomainBasedRanking', 'StatisticalReportsSource', 'AbnormalURL', 'IPinURL', 'ShorteningService', 'RequestURL', 'LinksInTags', 'SubmittingToEmail', 'ExtFormHandler', 'Redirect', 'StatusBarCustom', 'DisableRightClick', 'UsingPopupWindow', 'Iframe', 'DNSRecord', 'WebTraffic', 'SuspiciousWordsInURL', 'LengthOfURL', 'HasAtSymbol', 'IsLongURL', 'IsHTTPSMissing', 'HasIPAddress']
+2025-03-28 23:06:35,354 - ERROR - Prediction error: Unexpected input dimension 1, expected 48
+2025-03-28 23:06:35,355 - INFO - 127.0.0.1 - - [28/Mar/2025 23:06:35] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2025-03-28 23:07:08,713 - INFO -  * Detected change in 'C:\\Users\\Md.Daniyal\\Desktop\\finalY\\app.py', reloading
